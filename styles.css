@@ -25,7 +25,6 @@
   }
   
   body {
-    /*background: color image repeat position/size*/
     background: var(--bg-url) no-repeat top center/cover;
     height: 100vh;
   }
@@ -41,7 +40,6 @@
     margin: 56px auto 0px;
   }
   
-  /* profile */
   #profile {
     text-align: center;
     padding: 24px;
@@ -57,8 +55,7 @@
     margin-top: 8px;
   }
   
-  /* switch */
-  #switch {
+#switch {
     position: relative;
     width: 64px;
     margin: 0 auto;
@@ -98,7 +95,6 @@
     border-radius: 9999px;
   }
   
-  /* links */
   ul {
     list-style: none;
     display: flex;
@@ -127,7 +123,6 @@
     border: 1px solid var(--text-color);
   }
   
-  /* social links */
   #social-links {
     display: flex;
     justify-content: center;
@@ -154,7 +149,6 @@
     font-size: 14px;
   }
   
-  /* media queries */
   @media (min-width: 700px) {
     :root {
       --bg-url: url(./assets/bg-desktop.jpg);
@@ -165,7 +159,6 @@
     }
   }
   
-  /* animações*/
   @keyframes slide-in {
     from {
       left: 0;
